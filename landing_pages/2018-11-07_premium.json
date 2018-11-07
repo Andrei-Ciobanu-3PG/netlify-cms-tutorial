@@ -9,7 +9,7 @@
       "name": "Standard",
       "description": "Free for 30 days",
       "weekDescription": "Just £2 per week",
-      "body": "* Access to Premium articles on Telegraph.co.uk, The Telegraph News app and Apple News\n\n* Newsletters and daily briefings\n\n* Subscriber-only events and exclusive rewards."
+      "body": "* Access to Premium articles on Telegraph.co.uk, The Telegraph News app and Apple News\n\n* Newsletters and daily briefings\n\n* Subscriber-only events and exclusive rewards.\n\n>{.text-danger}{#id}This is the blockquote"
     }
   ]
 }
