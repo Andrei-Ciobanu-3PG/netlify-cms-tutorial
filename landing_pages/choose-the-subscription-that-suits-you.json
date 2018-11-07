@@ -1,6 +1,6 @@
 {
   "path": "open_offer",
-  "title": "Choose the subscription that suits you!",
+  "title": "Choose the subscription that suits you",
   "banner": "/assets/pricing-heroimage-148575e055f24af85318e051c66a5d9b-a7595.png",
   "offers": [
     {
@@ -15,7 +15,7 @@
       "name": "All Digital Access",
       "description": "Free for 30 days then £3pw for the first 3 months",
       "weekDescription": "Just £3 per week",
-      "body": "* All of the benefits of a Standard subscription\n* The daily newspaper, delivered to your smartphone or tablet, every day from 5am"
+      "body": "* All of the benefits of a Standard subscription\n\n* The daily newspaper, delivered to your smartphone or tablet, every day from 5am"
     }
   ]
 }
