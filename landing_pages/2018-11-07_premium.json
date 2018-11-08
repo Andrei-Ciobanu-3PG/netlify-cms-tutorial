@@ -1,8 +1,8 @@
 {
   "path": "open_offer_test",
   "title": "Premium Test",
-  "subtitle": "Choose the subscription that suits you!",
-  "banner": "/assets/pricing-heroimage-148575e055f24af85318e051c66a5d9b-a7595.png",
+  "subtitle": "Choose the subscription that suits you",
+  "banner": "/assets/sport-heroimage-22a3708574d2ad9493bdb0421a54342a-30e0b.png",
   "offers": [
     {
       "offerId": "freetrial1-website-monthly-90",
