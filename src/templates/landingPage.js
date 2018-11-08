@@ -35,7 +35,7 @@ export default function Template({data}) {
                 <img className="align-self-center mr-3 col-sm" src={withPrefix(landingPagesJson.banner)} alt="banner"/>
             </div>
             <div className="row">
-                <h3 className="col-sm">{landingPagesJson.title}</h3>
+                <h3 className="col-sm">{landingPagesJson.subtitle}</h3>
             </div>
             <div className="row">
                 {landingPagesJson.offers.map(offer => renderOffer(offer))}
@@ -48,6 +48,7 @@ export const pageQuery = graphql`
   query($filePath: String!) {
     landingPagesJson(path: { eq: $filePath }) {
         title
+        subtitle
         path
         banner
         offers {
