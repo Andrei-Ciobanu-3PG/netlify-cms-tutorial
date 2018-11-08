@@ -9,6 +9,9 @@
     "serve": "gatsby serve",
     "heroku-postbuild": "gatsby build"
   },
+  "engines": {
+    "node": "10.3.0"
+  },
   "dependencies": {
     "gatsby": "^2.0.33",
     "gatsby-plugin-netlify-cms": "^3.0.6",
