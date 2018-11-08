@@ -1,12 +1,13 @@
 module.exports = {
     plugins: [
-        `gatsby-plugin-netlify-cms`,
+        'gatsby-plugin-netlify-cms',
         {
-            resolve: `gatsby-source-filesystem`,
+            resolve: 'gatsby-source-filesystem',
             options: {
-                path: `${__dirname}/blog`,
-                name: "markdown-pages",
+                path: `${__dirname}/landing_pages`,
+                name: 'json-pages',
             },
         },
+        'gatsby-transformer-json'
     ],
-}
+};

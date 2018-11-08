@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "gatsby-netifly-cms-poc",
+  "description": "Gatsby Netifly-CMS POC",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -12,8 +12,11 @@
     "gatsby": "^2.0.33",
     "gatsby-plugin-netlify-cms": "^3.0.6",
     "gatsby-source-filesystem": "^2.0.7",
+    "gatsby-transformer-json": "^2.1.5",
+    "gatsby-transformer-remark": "^2.1.11",
     "netlify-cms": "^2.1.3",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "react-markdown": "^4.0.3"
   }
 }
