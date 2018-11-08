@@ -5,25 +5,25 @@
   "banner": "/assets/pricing-heroimage-148575e055f24af85318e051c66a5d9b-a7595.png",
   "offers": [
     {
-      "offerId": "freetrial1-website-monthly-UR257",
-      "name": "Standard 30",
-      "description": "Free for 30 days",
-      "weekDescription": "Just £2 per week",
-      "body": "------\n* Access to Premium articles on Telegraph.co.uk, The Telegraph News app and Apple News\n\n* Newsletters and daily briefings\n\n* Subscriber-only events and exclusive rewards.\n------"
+      "offerId": "freetrial1-website-monthly-90",
+      "name": "Standard 90",
+      "description": "Free for 90 days",
+      "weekDescription": "Just £4 per week",
+      "body": "\n* Newsletters and daily briefings"
     },
     {
-      "offerId": "freetrial1-website-monthly-UR257",
+      "offerId": "freetrial1-website-monthly-60",
       "name": "Standard 60",
       "description": "Free for 60 days",
       "weekDescription": "Just £4 per week",
       "body": "* Access to Premium articles on Telegraph.co.uk, The Telegraph News app and Apple News\n\n* Newsletters and daily briefings\n\n* Subscriber-only events and exclusive rewards."
     },
     {
-      "offerId": "freetrial1-website-monthly-3",
-      "name": "Standard 90",
-      "description": "Free for 90 days",
-      "weekDescription": "Just £4 per week",
-      "body": "\n* Newsletters and daily briefings"
+      "offerId": "freetrial1-website-monthly-30",
+      "name": "Standard 30",
+      "description": "Free for 30 days",
+      "weekDescription": "Just £2 per week",
+      "body": "------\n* Access to Premium articles on Telegraph.co.uk, The Telegraph News app and Apple News\n\n* Newsletters and daily briefings\n\n* Subscriber-only events and exclusive rewards.\n------"
     }
   ]
 }
