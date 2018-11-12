@@ -1,28 +1,54 @@
-import React from "react"
-import {graphql, withPrefix} from "gatsby"
-const ReactMarkdown = require('react-markdown')
+import React from "react";
+import {graphql, withPrefix} from "gatsby";
+import { Link } from 'gatsby';
+
+
+const ReactMarkdown = require('react-markdown');
 
 
 function renderOffer(offer) {
     return (
         <div key={offer.offerId} className="col-sm">
-            <div className="card">
-                <div className="card-header">
+
+            <div className="d-flex flex-column h-100 justify-content-between border">
+                <div className="p-2 h-10">
                     <h4>{offer.name}</h4>
                     <h5>{offer.weekDescription}</h5>
                 </div>
-                <div className="card-body">
-                    <ReactMarkdown source={offer.body} />
+                <div className="p-2 h-100">
+                    <ReactMarkdown source={offer.body}/>
                 </div>
-
-                <div className="card-footer container">
-                    <div className="row">
-                        <div className="col-sm">{offer.weekDescription}</div>
-                        <div className="col-sm">{offer.description}</div>
-                    </div>
+                <div className="p-2 h-10">
+                    <span className="float-left">{offer.weekDescription}</span>
+                    <span className="float-right">{offer.description}</span>
                 </div>
-
+                <div className="p-2 h-10">
+                    <Link className="btn btn-primary btn-block"
+                          to={`/payment/?productId=${offer.productId}&offerId=${offer.offerId}&campaignId=645X`}>
+                        Start free trial
+                    </Link>
+                </div>
             </div>
+
+            {/*<div className="card h-100">*/}
+                {/*<div className="card-header">*/}
+                    {/*<h4>{offer.name}</h4>*/}
+                    {/*<h5>{offer.weekDescription}</h5>*/}
+                {/*</div>*/}
+
+                {/*<ul className="list-group list-group-flush">*/}
+                    {/*<li className="list-group-item">*/}
+                        {/*<ReactMarkdown source={offer.body} />*/}
+                    {/*</li>*/}
+                    {/*<li className="list-group-item">*/}
+                        {/*<span className="float-left">{offer.weekDescription}</span>*/}
+                        {/*<span className="float-right">{offer.description}</span>*/}
+                    {/*</li>*/}
+                {/*</ul>*/}
+                {/*<div className="card-footer">*/}
+                    {/*<Link className="btn btn-primary btn-block" to="/">Start free trial</Link>*/}
+                {/*</div>*/}
+            {/*</div>*/}
         </div>
     );
 }
@@ -53,6 +79,7 @@ export const pageQuery = graphql`
         banner
         offers {
           offerId
+          productId
           name
           description
           weekDescription

@@ -27,6 +27,7 @@ collections:
       widget: "list"
       allow_add: true
       fields:
+        - {name: productId, label: "Product Id", widget: "string"}
         - {name: offerId, label: "Offer Id", widget: "string"}
         - {name: name, label: "Offer Name", widget: "string"}
         - {name: description, label: "Offer Description", widget: "string"}
