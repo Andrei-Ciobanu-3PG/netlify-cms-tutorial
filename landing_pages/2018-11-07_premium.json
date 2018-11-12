@@ -5,6 +5,7 @@
   "banner": "/assets/sport-heroimage-22a3708574d2ad9493bdb0421a54342a-30e0b.png",
   "offers": [
     {
+      "productId": "nyytq4zthbvwsoliojugwyzzmyzha3dt",
       "offerId": "freetrial1-website-monthly-90",
       "name": "Standard 90",
       "description": "Free for 90 days",
@@ -12,6 +13,7 @@
       "body": "\n* Newsletters and daily briefings"
     },
     {
+      "productId": "nyytq4zthbvwsoliojugwyzzmyzha3dt",
       "offerId": "freetrial1-website-monthly-60",
       "name": "Standard 60",
       "description": "Free for 60 days",
@@ -19,6 +21,7 @@
       "body": "* Access to Premium articles on Telegraph.co.uk, The Telegraph News app and Apple News\n\n* Newsletters and daily briefings\n\n* Subscriber-only events and exclusive rewards."
     },
     {
+      "productId": "nyytq4zthbvwsoliojugwyzzmyzha3dt",
       "offerId": "freetrial1-website-monthly-30",
       "name": "Standard 30",
       "description": "Free for 30 days",
