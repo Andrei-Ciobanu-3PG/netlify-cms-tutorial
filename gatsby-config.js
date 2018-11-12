@@ -8,7 +8,6 @@ module.exports = {
                 name: 'json-pages',
             },
         },
-        'gatsby-transformer-json',
-        `gatsby-plugin-remove-trailing-slashes`
+        'gatsby-transformer-json'
     ],
 };

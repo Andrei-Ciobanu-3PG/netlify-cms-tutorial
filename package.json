@@ -10,7 +10,7 @@
     "heroku-postbuild": "rm -rf .cache && rm -rf public/* && gatsby build"
   },
   "engines": {
-    "node": "11.1.0"
+    "node": "8.11.3"
   },
   "dependencies": {
     "gatsby": "^2.0.46",

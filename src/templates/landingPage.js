@@ -24,7 +24,7 @@ function renderOffer(offer) {
                 </div>
                 <div className="p-2 h-10">
                     <Link className="btn btn-primary btn-block"
-                          to={`/payment?productId=${offer.productId}&offerId=${offer.offerId}&campaignId=645X`}>
+                          to={`/payment/?productId=${offer.productId}&offerId=${offer.offerId}&campaignId=645X`}>
                         Start free trial
                     </Link>
                 </div>
