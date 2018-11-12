@@ -5,6 +5,7 @@
   "banner": "/assets/pricing-heroimage-148575e055f24af85318e051c66a5d9b-a7595.png",
   "offers": [
     {
+      "productId": "nyytq4zthbvwsoliojugwyzzmyzha3dt",
       "offerId": "freetrial1-website-monthly-UR257",
       "name": "Standard",
       "description": "Free for 30 days",
@@ -12,6 +13,7 @@
       "body": "* Access to Premium articles on Telegraph.co.uk, The Telegraph News app and Apple News\n\n* Newsletters and daily briefings\n\n* Subscriber-only events and exclusive rewards."
     },
     {
+      "productId": "nyytq4zthbvwsoliojugwyzzmyzha3dt",
       "offerId": "free1half3-tablet-monthly-KO118",
       "name": "All Digital Access",
       "description": "Free for 30 days then £3pw for the first 3 months",
