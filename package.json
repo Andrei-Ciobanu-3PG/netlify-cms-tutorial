@@ -7,7 +7,7 @@
     "start": "gatsby serve --port ${PORT}",
     "build": "rm -rf .cache && rm -rf public/* && gatsby build",
     "serve": "gatsby serve",
-    "heroku-postbuild": "gatsby build"
+    "heroku-postbuild": "rm -rf .cache && rm -rf public/* && gatsby build"
   },
   "engines": {
     "node": "10.3.0"
