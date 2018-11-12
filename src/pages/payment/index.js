@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactQueryParams from 'react-query-params';
+import React,{Component} from 'react';
+import queryString from 'query-string';
 
-
-class Payment extends ReactQueryParams {
+class Payment extends Component {
 
     constructor(props) {
         super(props);
@@ -14,7 +13,7 @@ class Payment extends ReactQueryParams {
     }
 
     componentDidMount() {
-        const {productId, offerId, campaignId} = this.queryParams;
+        const {productId, offerId, campaignId} = queryString.parse(this.props.location.search);
 
         if(!productId || !offerId) {
             return this.setState({
@@ -67,8 +66,8 @@ class Payment extends ReactQueryParams {
                                     </li>
                                     <li className="list-group-item">
                                         <div className="text-center"><h4 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].name}}/></div>
-                                        <div className="text-center"><h8 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].description}}/></div>
-                                        <div className="text-center"><h8 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].subDescription}}/></div>
+                                        <div className="text-center"><h6 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].description}}/></div>
+                                        <div className="text-center"><h6 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].subDescription}}/></div>
                                     </li>
                                     <li className="list-group-item">
                                         If you have any questions about your subscription, please email us at digitalservices@telegraph.co.uk or call us on 0800 542 5860 (UK) or 0044 1622 335007 (International)

@@ -1,6 +1,6 @@
 import React from "react";
 import {graphql, withPrefix} from "gatsby";
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 
 
 const ReactMarkdown = require('react-markdown');
@@ -23,10 +23,10 @@ function renderOffer(offer) {
                     <span className="float-right">{offer.description}</span>
                 </div>
                 <div className="p-2 h-10">
-                    <Link className="btn btn-primary btn-block"
-                          to={`/payment/?productId=${offer.productId}&offerId=${offer.offerId}&campaignId=645X`}>
-                        Start free trial
-                    </Link>
+                    {/*<Link className="btn btn-primary btn-block"*/}
+                          {/*to={`/payment/?productId=${offer.productId}&offerId=${offer.offerId}&campaignId=645X`}>*/}
+                        {/*Start free trial*/}
+                    {/*</Link>*/}
                 </div>
             </div>
 
