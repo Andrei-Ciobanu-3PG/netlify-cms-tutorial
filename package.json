@@ -5,7 +5,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby serve --port ${PORT}",
-    "build": "gatsby build",
+    "build": "rm -rf .cache && rm -rf public/* && gatsby build",
     "serve": "gatsby serve",
     "heroku-postbuild": "gatsby build"
   },
