@@ -66,8 +66,8 @@ class Payment extends ReactQueryParams {
                                         <div dangerouslySetInnerHTML={{__html: product.description}} />
                                     </li>
                                     <li className="list-group-item">
-                                        <div className="text-center"><h5>{product.ratePlans[0].offers[0].name}</h5></div>
-                                        <div className="text-center"><h7 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].description}}/></div>
+                                        <div className="text-center"><h4 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].name}}/></div>
+                                        <div className="text-center"><h8 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].description}}/></div>
                                         <div className="text-center"><h8 dangerouslySetInnerHTML={{__html: product.ratePlans[0].offers[0].subDescription}}/></div>
                                     </li>
                                     <li className="list-group-item">
